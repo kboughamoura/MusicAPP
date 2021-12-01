@@ -3,10 +3,8 @@
 <html>
 
 <style>
-  // Remy function
-@function remy($value) {
-  @return ($value / 16px) * 1rem;
-}
+
+
 
 body {
   font: 100% / 1.414 "Open Sans", "Roboto", arial, sans-serif;
@@ -84,8 +82,7 @@ h2 {
 .thumbnail__links a {
   font-size: 1rem;
   color: #fff;
-  &:focus,
-  &:hover {color: rgba(255,255,255,.5);}
+  
 }
 .signup__form {
   padding: 2.5rem;
@@ -102,7 +99,7 @@ label {
   border-right: 0;
   border-left: 0;
   border-radius: 0;
-  &:focus {border-color: #111;}
+  
 }
 [type="text"] {color: #111;}
 [type="password"] {color: #111;}
@@ -114,16 +111,14 @@ label {
   color: #fff;
   background: #111;
   border-radius: remy(35px);
-  &:focus,
-  &:hover {background: lighten(#111, 13%);}
+  
 }
 .signup__link {
   font-size: .8rem;
   font-weight: 600;
   text-decoration: underline;
   color: #999;
-  &:focus,
-  &:hover {color: darken(#999, 13%);}
+ 
 }
   </style>
 <body>
