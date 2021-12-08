@@ -141,7 +141,10 @@ button{
 
         <label for="password">Password</label>
         <input type="password" placeholder="Password" name="password" id="password">
-
+        <div>
+            <label for="password">Remember me</label>
+            <input type="checkbox" name="remember" value="1"> 
+        </div>
         <input type="submit" value="login" name="login">
         
     </form>

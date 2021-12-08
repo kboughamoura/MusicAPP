@@ -9,6 +9,7 @@ session_start();
 if (isset($_POST['inscrire'])){
   $username=mysqli_escape_string($con,$_POST['username']); 
   $password=mysqli_escape_string($con,$_POST['password']);
+
   $fullname=mysqli_escape_string($con,$_POST['fullname']);
   $email=$_POST['email'];
 
